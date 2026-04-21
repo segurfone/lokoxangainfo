@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokoxanga - Charanga de Cullera</title>
+
+    <!-- FUENTES EXÓTICAS -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #111;
+            color: #fff;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff0055, #ff9900);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Bungee', cursive;
+            font-size: 3.5em;
+            letter-spacing: 3px;
+            text-shadow: 3px 3px 0 #000;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        nav {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-family: 'Bungee', cursive;
+            font-size: 2.8em;
+            color: #ff9900;
+            text-shadow: 2px 2px 0 #000;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #222;
+            padding: 25px;
+            border-radius: 12px;
+            flex: 1;
+            min-width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h3 {
+            font-family: 'Bungee', cursive;
+            color: #ff0055;
+        }
+
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        button {
+            background: #ff0055;
+            border: none;
+            padding: 12px 25px;
+            color: white;
+            font-size: 1.1em;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #ff9900;
+        }
+	.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎺 Lokoxanga</h1>
+    <p>Asociación Juvenil de Charanga en Cullera</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="inicio" class="hero">
+    <h2>¡Música, aprendizaje y juventud!</h2>
+    <p>La charanga que convierte cualquier evento en un fiestón inolvidable.</p>
+</section>
+
+<section id="nosotros">
+    <h2>Sobre Lokoxanga</h2>
+
+    <h3 style="color:#ff9900;">¿Quiénes somos?</h3>
+    <p>
+        <strong>Lokoxanga</strong> es una asociación musical formada por 18 jóvenes músicos junto a sus familias,
+        sumando una comunidad de más de 54 miembros.
+    </p>
+
+    <p>
+        Nace con el objetivo de ofrecer a los músicos una vertiente más lúdica dentro de su formación,
+        complementando el esfuerzo que realizan en conservatorios y bandas de música.
+        El proyecto busca que disfruten de la música desde un enfoque más dinámico, social y cercano.
+    </p>
+
+    <p>
+        Con el paso del tiempo, la agrupación ha ido evolucionando hasta consolidarse en 2026,
+        contando ya algunos de sus integrantes con más de tres años de formación dentro de la charanga.
+    </p>
+
+    <h3 style="color:#ff0055;">¿Qué hacemos?</h3>
+    <ul style="line-height: 1.8;">
+        <li>🎉 Actos sociales, como colaboraciones con la residencia municipal de ancianos y la asociación AFACU.</li>
+        <li>🔥 Participación en festivales y eventos falleros como los festivales RX de la Falla El Raval.</li>
+        <li>🤝 Colaboraciones con asociaciones locales, fallas y el comercio.</li>
+        <li>🏛️ Actividades junto al Ayuntamiento de Cullera (Bienal del Arroz, promoción de la sandía).</li>
+        <li>🛍️ Acciones con ACECU dinamizando el comercio y turismo local.</li>
+        <li>🌊 Participación en iniciativas como Cullera Experiencia.</li>
+    </ul>
+
+    <p>
+        Además, la charanga ha llevado su música a otras localidades como Favara, Sueca, Fortaleny y Polinyà,
+        ampliando su experiencia y presencia.
+    </p>
+
+    <p>
+        Estas experiencias permiten a los músicos desarrollarse en entornos reales,
+        ganando confianza y experiencia en la calle.
+    </p>
+
+    <h3 style="color:#ff9900;">Instalaciones y organización</h3>
+    <p>
+        Lokoxanga cuenta con unas instalaciones únicas en Cullera, con una sala completamente acondicionada para ensayos.
+    </p>
+
+    <p>
+        El proyecto está dirigido por un director musical y respaldado por un equipo humano muy implicado,
+        formado por padres y familiares.
+    </p>
+
+    <p>
+        La asociación dispone de un equipo de gobierno compuesto por presidente, secretario, administrador
+        y varios vocales comprometidos con el crecimiento del grupo.
+    </p>
+
+    <h3 style="color:#ff0055;">Nuestro objetivo</h3>
+    <p style="font-weight: 600; font-size: 1.1em;">
+        Más allá de la música, Lokoxanga busca crear un entorno donde los jóvenes puedan crecer tanto musical
+        como personalmente, fomentando el compañerismo, la convivencia y la pasión por la música.
+    </p>
+</section>
+<section id="eventos">
+    <h2>Eventos</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🎉 Colaboración comercios</h3>
+            <p>Animamos las calles con nuestra música.</p>
+        </div>
+        <div class="card">
+            <h3>🥁 Actos sociales</h3>
+            <p>La mejor energía en directo.</p>
+        </div>
+        <div class="card">
+            <h3>🎺 Festivales</h3>
+            <p>Colaboraciones y shows únicos.</p>
+        </div>
+    </div>
+</section>
+<section id="galeria">
+    <h2>Galería</h2>
+
+    <div class="galeria">
+        <img src="img/imagen1.jpg">
+        <img src="img/imagen2.jpg">
+        <img src="img/imagen3.jpg">
+        <img src="img/imagen4.jpg">
+        <img src="img/imagen5.jpg">
+        <img src="img/imagen6.jpg">
+        <img src="img/imagen7.jpg">
+    </div>
+</section>
+<section id="contacto">
+    <h2>Contacto</h2>
+
+    <p style="font-size: 1.2em; font-weight: 600; color: #ff9900;">
+        🎉 ¡Haz que tu evento sea inolvidable!
+    </p>
+
+    <p style="font-size: 1.1em;">
+        Contacta con nosotros si quieres darles una experiencia a los socios que tocan en la asociación juvenil de charanga,
+        ya sea cumpleaños, fiesta, despedida o cualquier celebración.
+    </p>
+
+    <p>Email: lokoxanga@gmail.com</p>
+    <p>Facebook: @lokoxanga</p>
+    <p>Instagram: @lokoxanga</p>
+</section>
+<footer>
+    <p>© 2026 Lokoxanga</p>
+</footer>
+
+</body>
+</html>
